@@ -16,27 +16,27 @@ import {Link} from "react-router-dom";
       <ul className="navbar__links"  > 
 
         <li className="navbar__items slideInDwn-1" >
-        <Link href="/" className="navbar__link">Acueille</Link>
+        <Link to="/" className="navbar__link">Acueille</Link>
         </li> 
 
         <li className="navbar__items slideInDwn-2">
-        <Link href="/Blog" className="navbar__link">Blog</Link>
+        <Link to="/Blog" className="navbar__link">Blog</Link>
         </li> 
-
+        
         <li className="navbar__items slideInDwn-3">
-        <Link href="/Realisation" className="navbar__link">Realisation</Link>
+        <Link to="/Realisation" className="navbar__link">Realisation</Link>
 
         </li> 
         <li className="navbar__items slideInDwn-4">
-        <Link href="/MentionLegal" className="navbar__link">Mention Legal</Link>
+        <Link to="/MentionLegal" className="navbar__link">Mention Legal</Link>
         </li> 
 
         <li className="navbar__items slideInDwn-5">
-        <Link href="/Service" className="navbar__link">Service</Link>
+        <Link to="/Service" className="navbar__link">Service</Link>
         </li> 
 
         <li className="navbar__items slideInDwn-6" >
-        <Link href="/Contact" className="navbar__link">Contact</Link>
+        <Link to="/Contact" className="navbar__link">Contact</Link>
         </li> 
 
         </ul>

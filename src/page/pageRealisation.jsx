@@ -1,6 +1,6 @@
-import photo1 from"../image/photo1.png";
-import photo2 from"../image/photo2.jpg";
-import photo3 from"../image/photo3.jpg";
+import photo1 from"../image/photo1.jpg";
+import photo2 from"../image/p2.jpg";
+import photo3 from"../image/phot3.jpg";
 import Card from 'react-bootstrap/Card';
 import"./realisation.css";
 import React from 'react';

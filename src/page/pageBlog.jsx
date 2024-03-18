@@ -1,9 +1,9 @@
-import photo4 from "../image/photo4.png";
-import photo5 from "../image/photo5.jpg";
-import photo6 from "../image/photo6.jpg";
-import photo7 from "../image/photo7.jpg";
-import photo8 from "../image/photo8.jpg";
-import photo9 from "../image/photo9.jpg";
+import photo4 from "../image/photo4.jpg";
+import photo5 from "../image/phot5.jpg";
+import photo6 from "../image/phot6.jpg";
+import photo7 from "../image/phot7.jpg";
+import photo8 from "../image/phot8.jpg";
+import photo9 from "../image/photo9.png";
 import Card from 'react-bootstrap/Card';
 import"./realisation.css"
 import React from 'react';

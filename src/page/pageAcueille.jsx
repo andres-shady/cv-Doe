@@ -1,12 +1,12 @@
 import React from "react";
-import image from"./ordinateur.jpg"
+import image from"./ordinateu.jpg"
 import profil from"./profil.jpg";
 import"./accueille.css";
 
 
 function Acueille(){
     return(
-        <body>
+        
             <main>
                 <div className="div1" style={{backgroundImage:`url(${image})`}}>
                  <h1>BIENVENUE</h1>
@@ -47,7 +47,7 @@ function Acueille(){
                
             </main>
             
-        </body>
+        
          
     )
     
