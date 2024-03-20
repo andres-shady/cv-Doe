@@ -1,7 +1,7 @@
 import"./App.css"
-import React from "react";
+import React, {useEffect} from "react";
 import  './App';
-import { Route,Routes } from "react-router-dom";
+import { Link, Route,Routes } from "react-router-dom";
 
 import Acueille from "./page/pageAcueille";
 import Blog from "./page/pageBlog";
@@ -14,6 +14,10 @@ import Footer from "./component/Footer";
 import NotFound from "./page/page404";
 
 function App(){
+    useEffect(() =>{
+        console.log(" https://api.github.com/users/github-john-doe")
+        },[])
+
      return(
     
     <div className="App">
@@ -23,7 +27,7 @@ function App(){
         <Header/>
         </header>
        
-     
+    <Link to="/"> <button className="b1">retour</button></Link>
        
    
     

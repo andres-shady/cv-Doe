@@ -3,6 +3,7 @@
     text-align: center;
     padding-bottom: 100px;   
     color: #000000;
+    
 }    
 
 h2{
@@ -17,6 +18,8 @@ h2{
     padding: 0%;
     margin: 0%;
     text-align: center;
+    border-top: 1px solid #000000  0.8 ;
+   
 }
 .bouton1{
     background-color:#444 ;

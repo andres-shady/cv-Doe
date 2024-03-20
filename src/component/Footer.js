@@ -11,7 +11,7 @@ function Footer(){
             <li className="Element"><address>Rue Toulousaine Chirongui</address> </li>
             <li className="Element">  0639004577</li>
          </ul>
-         <a href="https://github.com/andres-shady"><img src={github} alt="photo d'un icone github"/> </a>
+         <a href="https://github.com/andres-shady"><img src={github} alt="logo github"/> </a>
         </div>
 
         <div className="deuxieme--div">

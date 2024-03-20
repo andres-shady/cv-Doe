@@ -22,10 +22,16 @@
     padding: 25px;  
     color: inherit;
     text-decoration: none;  
+    text-transform: uppercase;
 
 }
 .navbar__link:active{
   color: #0d6efd;
+ 
+}
+.navbar__link:hover{
+  color: white;
+ opacity: 0.8;
 }
 
 .navbar__burger{

@@ -17,7 +17,7 @@ function Acueille(){
                 <div className="div2">
                     <h1>John Doe</h1>
                     <p className="p1">Bonjour je m'appelle Jhon Doe et je viens de terminer mon formation de developpeur web</p>
-                    <img src={profil} alt="photo de profil"/>
+                    <img src={profil} alt="dessin d'un profil"/>
                     <article>
                     <p className="p2">
                      Je maitrisse les langages HTML, CSS et JavaScript, 
