@@ -3,11 +3,11 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+   margin: 0;
     width: 100%;
     min-height: 75px;
     padding: 1rem;
-    margin-bottom: 50px;
+   
     background-color: #444 ;
     color: #EEE;
 

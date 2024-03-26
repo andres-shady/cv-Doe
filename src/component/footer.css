@@ -2,8 +2,8 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items:center;
-     background-color: #1e1e1e;
-     color: #EEE;  
+     background-color:  #EEE;
+     color: #1e1e1e;  
      padding: 10px; ;
      width:100% ;
 
@@ -30,3 +30,16 @@ img{
     align-items: center;
 
 }
+@media  screen and (max-width: 450px){
+footer{
+    display: block;
+    text-align: center;
+}
+.deuxieme--div{
+    margin: 30px 0 40px 0;
+}
+.troisieme__div{
+    margin: 3px 0 40px 0;
+}
+}
+    

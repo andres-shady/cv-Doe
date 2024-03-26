@@ -1,7 +1,10 @@
 
 import React, { useState } from 'react';
-import"./contact.css"
-
+import contact from "../image/contact.jpg";
+import"./contact.css";
+import tel from"../image/smartphone.png";
+import localisation from"../image/location.png";
+import carte from "../image/carte.png";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -24,11 +27,21 @@ function Contact() {
   };
 
   return (
-    <div className='dd'>
-    <form onSubmit={handleSubmit}>
-      <div className='d'>
-        <label htmlFor="name">Nom :</label>
+    <div className='D' style={{backgroundImage:`url(${contact})`,backgroundSize:'cover',}}>
+      <div className='d-ensemble'>
+      <div className='t-contact'>
+        <h1 className='h1-contact'>ME CONTACTER</h1>
+        <p className='p-contact'> Pour me contacter en vue d'un entretien ou d'une
+        future collaboration,merci de remplir le formulaire de contact
+        </p>
+      </div>
+     <div className='dd'>
+    <form className='ddd' onSubmit={handleSubmit}>
+    <div >
+    <h2 className='h2-contact'> Formule de contact</h2>
         <input
+        placeholder="Entrez votre nom"
+        
           type="text"
           id="name"
           name="name"
@@ -38,8 +51,8 @@ function Contact() {
         />
       </div>
       <div className='d'>
-        <label htmlFor="email">E-mail :</label>
         <input
+        placeholder="Entrez votre E-mail"
           type="email"
           id="email"
           name="email"
@@ -49,8 +62,8 @@ function Contact() {
         />
       </div>
       <div className='d'>
-        <label htmlFor="phone">Numéro de téléphone :</label>
         <input
+        placeholder="Entrez votre nom"
           type="tel"
           id="phone"
           name="phone"
@@ -59,8 +72,9 @@ function Contact() {
         />
       </div>
       <div className='d'>
-        <label htmlFor="subject">Sujet :</label>
+        
         <input
+        placeholder="Entrez votre sujet"
           type="text"
           id="subject"
           name="subject"
@@ -70,8 +84,9 @@ function Contact() {
         />
       </div>
       <div className='d'>
-        <label htmlFor="message">Message :</label>
+       
         <textarea
+        placeholder="votre message"
           id="message"
           name="message"
           value={formData.message}
@@ -80,9 +95,26 @@ function Contact() {
           required
         />
       </div>
-      <button type="submit">Envoyer</button>
+      <button type="submit" className='envoyer'>Envoyer</button>
     </form>
+   
+   
+     <div className='d-6'>
+     <h2 className='h2-contact'>Mes coordonnéés</h2>
+     <div className='photo-div'>
+      <img className='img-contact' src={localisation} alt="logo" />
+      <p>404 Rue Laure Diebold 69009 Lyon,France</p>
+     </div>
+     <div className='photo-div'>
+      <img  className='img-contact' src={tel} alt="logo" />
+      <p>06 20 30 40 50</p>
+     </div>
+     <img className='carte' src={carte} alt="carte" />
+     </div>
+     </div>
     </div>
+    </div>
+  
   );
 }
 

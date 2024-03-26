@@ -1,0 +1,58 @@
+.vid{
+    display:block;
+   
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.vid2{
+display: flex;
+margin-bottom: 50px;
+
+}
+.vid3{
+display: flex; 
+}
+.vid1{
+    text-align: center;
+}
+.pe{
+    border-bottom: 5px solid #0d6efd;
+    margin: 10px 490px 50px 490px;
+    padding-bottom: 20px;
+    color: black;
+  
+}
+.button-blog{
+    color: white;
+    background-color: #0d6efd;
+    margin: 10px 290px 20px 0;
+    
+}
+.videe{
+    width:30% ;
+    margin:20px ;
+    padding: 0 ;
+    
+}  
+.p-blog{
+    text-align: left;
+    margin: 10px;
+}
+.titre-blog{
+    text-align: left;
+    margin: 5px 5px 5px 10px;
+}
+.vid-image{
+    width:100%;
+    height:100%;
+    margin:0;
+    margin-bottom: 10px;
+}
+
+.p2-blog{
+    margin: 0;
+    background-color: #EEE;
+    padding: 10px;
+}
