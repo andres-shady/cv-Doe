@@ -42,6 +42,9 @@
     border: 2px solid whitesmoke ;
     border-radius: 15px;
 }
+.d{
+  margin: 0;
+}
 .d2-3{
     width: 28%;
     height:100% ;
@@ -49,4 +52,51 @@
     padding: 5px 5px 85px 5px;
     border: 2px solid whitesmoke ;
     border-radius: 15px;
+}
+@media screen and (max-width: 450px){
+    .p1-service{
+        margin: 50px;
+        padding: 0;
+    }
+  .d2{
+    display: block;
+    
+  }
+  .d2-1{
+    width: 250px;
+    padding: 5px;
+
+  }
+  .d2-2{
+    width: 250px;
+    padding: 5px;
+
+  }
+  .d2-3{
+    width: 250px;
+    padding: 5px;
+
+  }
+}
+@media (min-width:451px) and (max-width: 936px){
+  .d{
+    margin: 0;
+  }
+  .p1-service{
+  margin: 10px 200px 10px 200px;
+  }
+  .d2{
+    flex-wrap: wrap;
+    flex-basis:45%;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .d2-2{
+    padding: 5px;
+    width: 45%;
+    height: 200px;
+    margin:7% 5% 5% 5% ;
+    padding: 10px;
+}
 }

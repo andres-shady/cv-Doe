@@ -2,26 +2,26 @@
     display:block;
    
 }
+.vid1 h1{
+    text-align: center;
+}
 .image{
     width: 100%;
     height: 100%;
 }
-.vid2{
-display: flex;
-margin-bottom: 50px;
-
-}
-.vid3{
-display: flex; 
-}
-.vid1{
-    text-align: center;
-}
+.idv{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-basis:30%;
+    
+  }
 .pe{
     border-bottom: 5px solid #0d6efd;
     margin: 10px 490px 50px 490px;
     padding-bottom: 20px;
     color: black;
+    text-align: center;
   
 }
 .button-blog{
@@ -55,4 +55,47 @@ display: flex;
     margin: 0;
     background-color: #EEE;
     padding: 10px;
+}
+@media screen and (max-width: 450px){
+    .pe{
+     text-align: center; 
+     width:300px;
+     margin: 10px 50px 50px 50px;
+     padding: 5px 0 5px 0;
+
+    }
+   
+    
+    .videe{
+        width:90%;
+        margin: 5%;
+        padding: 0;
+       height:100%;
+    }
+    .button-blog{
+        margin: 10px 270px 10px 0;
+        padding: 0;
+      
+    }
+}
+@media (min-width:451px) and (max-width: 780px){
+    .pe{
+        margin: 0 200px 0 200px;
+        padding:5px 50px 5px 50px ;
+        width: 400px;
+    }
+  .idv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis:45%;
+  }
+  .videe{
+    width: 40%;
+    margin: 30px 10px 10px 50px;
+    
+  }
+  .button-blog{
+    margin-right:155px;
+   
+  }
 }

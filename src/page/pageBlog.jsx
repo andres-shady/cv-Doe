@@ -19,8 +19,9 @@ function Blog() {
         <p className="pe">
           Retrouve ici quelque articles le devellopement web
         </p>
-      </div>
-        <div className="vid2">
+      </div> 
+      <div className="idv">
+        
       <Card className="videe">
         <Card.Img className="image" variant="top" src={photo4}/>
         <Card.Body className="texte">
@@ -47,6 +48,7 @@ function Blog() {
                 <p className="p2-blog">Publié le 20 aout 2022</p>
           </Card.Text>
         </Card.Body>
+        
       </Card >
       <Card className="videe">
         <Card.Img className="image"  variant="top" src={photo6} />
@@ -61,8 +63,7 @@ function Blog() {
           </Card.Text>
         </Card.Body>
       </Card>
-      </div>
-      <div className="vid3">
+    
       <Card className="videe">
         <Card.Img className="image"  variant="top" src={photo7} />
         <Card.Body className="texte">
@@ -76,6 +77,7 @@ function Blog() {
           </Card.Text>
         </Card.Body>
       </Card>
+     
       <Card className="videe">
         <Card.Img className="image"  variant="top" src={photo8} />
         <Card.Body className="texte">
@@ -103,8 +105,8 @@ function Blog() {
         </Card.Body>
       </Card>
       </div>
-     
-    </div>
+     </div>
+   
   );
 }
 export default Blog;

@@ -69,3 +69,42 @@ margin-top: 50px;
     padding: 10px;
     color: black;
 }
+@media screen and (max-width: 450px){
+  .dive{
+    display: block;
+  }
+  .dive1{
+    margin: 50px;
+  }
+  .dive2{
+    margin: 50px;
+  }
+  .h3-intro{
+    margin: 50px;
+    padding: 0;
+  }
+}
+@media (min-width:451px) and (max-width: 936px){
+  .h3-intro{
+    margin:20px 150px 50px 150px ;
+  }
+
+  .dive{
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap; 
+  }
+  .dive-1{
+    width:45%;
+   margin: 5%;
+  }
+  .dive-2{
+    width:45%;
+   height: 410px;
+   margin-top: 5%;
+  }
+  .dive-3{
+    width:45%;
+    margin: 5%;
+  }
+}

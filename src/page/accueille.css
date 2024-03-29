@@ -1,15 +1,13 @@
 .div1 h1{
     font-size: 100px;
     text-align: center;
-    padding-bottom: 100px;   
-    color: #000000;
-    
+    padding:100px 0 100px 0 ;   
+    color: white;
+      
 }  
 
-
-
-h2{
-  color:#000000 ;
+.div1 h2{
+  color:white ;
     text-align: center;
     padding-bottom: 150px; 
 }
@@ -23,9 +21,12 @@ h2{
     border-top: 1px solid #000000  0.8 ;
    
 }
+
 .bouton1{
-    background-color:#444 ;
-    color:#000000;
+    background-color:#0d6efd ;
+    color:white;
+    border: 1px solid #0d6efd;
+    border-radius: 5px;
 }
 .div2{
     display: flex;
@@ -51,6 +52,10 @@ h2{
   display: block;
     height:100% ;
 }
+.div2-2 h2{
+    padding-bottom: 30px;
+    color: #000000;
+}
 .hi{
     margin-bottom: 50px;
     padding: 0;
@@ -70,10 +75,57 @@ h2{
     .div2{
         display: block;
         width:100%;
-        margin: 10px 10px 10px 10px;
-        padding: 0 ;
+        padding: 0 30px 10px 0px ;
+        background-color: white;
+        border-bottom: 4px solid whitesmoke ;
+        border-top: 4px solid whitesmoke ;
+        margin-left: 0;
     } 
     .div2-1{
         margin: 0;
+        width: 100%;
     }
+    .bouton1{
+        margin: 0;
+    }
+    .div2-2{
+        margin: 0;
+        width: 100%;
+        padding: 0 10px 0 10px;
+    }
+    .div1 h1{
+        font-size: 70px;
+        margin: 0;
+        padding-top: 150px;
+    }
+    .div1 h2{
+        font-size: 25px;
+        margin: 20px 5px 5px 5px ;
+    }
+    .l{
+       margin: 0;
+        height: 250px;
+        width: 400px;
+    }
+}
+@media (min-width:451px) and (max-width: 780px){
+.div2{
+    flex-basis: 50px;
+    width:90%;
+    margin-right: 30px;
+    margin-left: 50px;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+.div2-1{
+    margin-right: 20px;
+}
+.div2-2{
+    margin-left: Opx;
+    width: 400px;
+}
+.l{
+    width: 380px;
+}
 }

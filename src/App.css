@@ -18,3 +18,8 @@ p{
 .b1:active{
   color: #298eff;
 }
+@media screen and (max-width: 780px){
+  .b1{
+    display: none;
+  }
+}

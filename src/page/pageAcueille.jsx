@@ -53,7 +53,7 @@ function Acueille(){
                   
                     <img className="l" src={jhon} alt="john" />
                     <h2 className='ha'>Mes Competences</h2>
-                        <ContextualExample></ContextualExample>
+                      <ContextualExample></ContextualExample>
                    </div>
                 </div>
                

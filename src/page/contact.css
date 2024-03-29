@@ -75,3 +75,62 @@ textarea{
     margin-left: 230px;
     margin-top: 10px;
 }
+@media screen and (max-width: 450px){
+    .dd{
+        display: block;
+        margin-bottom: 100px;
+        
+        
+    }
+    .ddd{
+        width: 250px;
+    }
+    input{
+        width: 200px;
+    }
+    textarea{
+        width: 200px;
+    }
+    .envoyer{
+        margin-left: 80px;
+    }
+    .d-6{
+        width: 250px;
+        height:100%;
+        margin: 0 0 10px 50px ;
+    }
+    .carte{
+        height:100%;
+    }
+    .D{
+        height:100%;
+    }
+}
+@media (min-width:451px) and (max-width: 936px){
+    .dd{
+        flex-basis:40% ;
+        margin: 5% ;
+        padding: 5% ;
+    }
+    .ddd{
+        margin: 0;
+        padding: 0;
+    }
+    input{
+        width: 300px;
+    }
+    .d-6{
+        margin:0 0 0 30px ; 
+    }
+    textarea{
+        width: 300px;
+    }
+    .envoyer{
+        margin-left: 120px;
+    }
+    .carte{
+        width:270px;
+        height:250px ;
+        margin: 0;
+    }
+}
